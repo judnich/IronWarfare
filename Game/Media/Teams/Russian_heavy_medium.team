@@ -1,0 +1,14 @@
+team USA
+{
+	tank Tanks/mediumtank.tank {
+		texture Body_Russian.png
+	}
+	tank Tanks/heavytank.tank {
+		texture Body_Russian.png
+	}
+	flag {
+		pole_mesh Common/Objects/flagpole.xmesh
+		flag_mesh Common/Objects/flag.xmesh
+		texture Teams/RussianFlag.png
+	}
+}

@@ -1,0 +1,34 @@
+effect
+{
+	texture dustcloud.tga
+	blend_mode alpha
+	emit 1 {
+		min_pos 0 -2 0
+		max_pos 0 -2 0
+		min_vel -2 15 -2
+		max_vel 2 15 2
+		gravity -30 -30
+		angle -180 180
+		rotate_vel -90 90
+		scale 7 10
+		scale_vel 0 0
+		min_color 0.4 0.4 0.4
+		max_color 0.5 0.5 0.5
+		life 0.8 1.0
+	}
+	emit 10 {
+		min_pos 0 -1 0
+		max_pos 0 0 0
+		min_vel -2.5 0 -2.5
+		max_vel 2.5 10 2.5
+		gravity -15 -15
+		angle -180 180
+		rotate_vel -10 10
+		scale 3 4
+		scale_vel 0.5 0.8
+		min_color 0.7 0.7 0.7
+		max_color 1.0 1.0 1.0
+		start_alpha 0.7
+		life 0.2 1.5
+	}
+}

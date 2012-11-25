@@ -1,0 +1,54 @@
+map
+{
+	media_folder Maps/Level14/
+	height_range 80
+	detail_map detailmap.png
+	sky_box DaySky
+
+	clutter 70 desertclutter.tga
+	{
+		height_clamp 0 1
+
+		type {
+			density 0
+		}
+		type {
+			density 0.5
+			y_offset 0.3
+			view_range 150 200
+			size 0.5 1.2
+			lightness 0.7 1
+		}
+		type {
+			density 3
+			y_offset 0.2
+			view_range 150 200
+			size 0.4 0.6
+			lightness 0.8 1
+		}
+		type {
+			density 0
+		}
+	}
+
+	team Teams/USA_supertank.team player_team {
+		tank_limit 4
+		reinforcement_interval 40
+		tanks_per_reinforcement 2
+		outpost 268 524
+		ai_skill average
+	}
+
+	team Teams/German_supertank.team {
+		tank_limit 12
+		reinforcement_interval 30
+		tanks_per_reinforcement 4
+		outpost 485 371
+		outpost 586 485
+		ai_skill flawless
+	}
+
+	team neutral {
+		pole_mesh Common/Objects/flagpole.xmesh
+	}
+}

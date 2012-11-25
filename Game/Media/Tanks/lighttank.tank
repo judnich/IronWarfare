@@ -1,0 +1,28 @@
+tank "Light Tank"
+{
+	class 1
+	media_folder Tanks/LightTank/
+	armor 0.7
+	move_speed 22
+	turn_speed 1.5
+	acceleration 0.7
+
+	gun {
+		turret_pivot 0 0 0.173
+		barrel_pivot 0 1.872 -0.572
+		fire_rate 1.4 //0.7
+		velocity 200
+		power 0.3 //0.6
+		ground_impact_effect {
+			high_quality Common/Effects/dustcloud_high.effect
+			medium_quality Common/Effects/dustcloud_medium.effect
+			low_quality Common/Effects/dustcloud_low.effect
+		}
+		tank_impact_effect Common/Effects/armorflash1.effect
+		tank_impact_effect Common/Effects/armorflash2.effect
+	}
+
+	explosion_effect Common/Effects/explode1.effect
+	explosion_effect Common/Effects/explode2.effect
+	explosion_effect Common/Effects/explode3.effect
+}

@@ -1,0 +1,62 @@
+map
+{
+	media_folder Maps/Level15/
+	sky_box DaySky
+	detail_map detailmap.png
+
+	trees 20 snowtree.tga
+
+	clutter 60 snowclutter.tga
+	{
+		height_clamp 0 1
+
+		type {
+			density 0.1
+			y_offset 0.1
+			view_range 150 200
+			size 0.5 1
+			lightness 0.7 1
+		}
+		type {
+			y_offset 0.2
+			view_range 150 200
+			size 0.5 1
+			lightness 0.7 1
+		}
+		type {
+			y_offset 0.1
+			view_range 150 200
+			size 0.5 1
+			lightness 0.8 1
+		}
+		type {
+			density 0.5
+			y_offset 0.2
+			view_range 150 200
+			size 1.25 1.75
+			lightness 0.8 1
+		}
+	}
+
+	team Teams/USA_medium.team player_team {
+		tank_limit 4
+		reinforcement_interval 40
+		tanks_per_reinforcement 1
+		outpost 532 461
+		outpost 586 676
+		ai_skill rookie
+	}
+
+	team Teams/German_light.team {
+		tank_limit 10
+		reinforcement_interval 20
+		tanks_per_reinforcement 5
+		outpost 368 326
+		outpost 730 334
+		ai_skill flawless
+	}
+
+	team neutral {
+		pole_mesh Common/Objects/flagpole.xmesh
+	}
+}

@@ -1,0 +1,30 @@
+tank "Van ('Easter Egg')"
+{
+	class 4
+	media_folder Tanks/Van/
+	armor 5
+	move_speed 15
+	turn_speed 1.0
+	acceleration 1.0
+
+	gun {
+		turret_pivot 0 0 0.464
+		barrel_pivot 0 3.039 0.480
+		//fire_rate 15
+		fire_rate 3
+		velocity 200
+		//power 0.5
+		power 100
+		ground_impact_effect {
+			high_quality Common/Effects/dustcloud_high.effect
+			medium_quality Common/Effects/dustcloud_medium.effect
+			low_quality Common/Effects/dustcloud_low.effect
+		}
+		tank_impact_effect Common/Effects/armorflash1.effect
+		tank_impact_effect Common/Effects/armorflash2.effect
+	}
+
+	explosion_effect Common/Effects/explode1.effect
+	explosion_effect Common/Effects/explode2.effect
+	explosion_effect Common/Effects/explode3.effect
+}

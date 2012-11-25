@@ -1,0 +1,55 @@
+map
+{
+	media_folder Maps/Level8/
+	sky_box DuskSky
+	detail_map detailmap.png
+
+	clutter 70 greenclutter.tga
+	{
+		height_clamp 0 1
+
+		type {
+			density 0
+		}
+		type {
+			density 0.5
+			y_offset 0.3
+			view_range 150 200
+			size 0.5 1.2
+			lightness 0.7 1
+		}
+		type {
+			density 3
+			y_offset 0.2
+			view_range 150 200
+			size 0.4 0.6
+			lightness 0.8 1
+		}
+		type {
+			density 0
+		}
+	}
+
+	team Teams/USA_medium.team player_team {
+		tank_limit 16
+		reinforcement_interval 30
+		tanks_per_reinforcement 6
+		outpost 662 362
+		ai_skill expert
+	}
+
+	team Teams/German_medium.team {
+		tank_limit 16
+		reinforcement_interval 30
+		tanks_per_reinforcement 6
+		outpost 362 662
+		ai_skill expert
+	}
+
+	team neutral {
+		pole_mesh Common/Objects/flagpole.xmesh
+		outpost 512 512
+		outpost 362 362
+		outpost 612 662
+	}
+}

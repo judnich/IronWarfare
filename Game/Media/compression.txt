@@ -1,0 +1,5 @@
+Texture tool compression command:
+
+texturetool -m -e PVRTC --channel-weighting-linear --bits-per-pixel-2 -p test_preview.png -o output.pvr -f PVR input.jpg
+
+texturetool -m -e PVRTC --channel-weighting-linear --bits-per-pixel-4 -o texturemap.png.pvr -f PVR texturemap.png

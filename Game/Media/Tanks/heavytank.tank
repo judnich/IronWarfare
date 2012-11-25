@@ -1,0 +1,28 @@
+tank "Heavy Tank"
+{
+	class 3
+	media_folder Tanks/HeavyTank/
+	armor 2.2
+	move_speed 10
+	turn_speed 1.0
+	acceleration 1.0
+
+	gun {
+		turret_pivot 0 0 -0.106
+		barrel_pivot 0 1.672 -1.406
+		fire_rate 0.7
+		velocity 200
+		power 0.8
+		ground_impact_effect {
+			high_quality Common/Effects/dustcloud_high.effect
+			medium_quality Common/Effects/dustcloud_medium.effect
+			low_quality Common/Effects/dustcloud_low.effect
+		}
+		tank_impact_effect Common/Effects/armorflash1.effect
+		tank_impact_effect Common/Effects/armorflash2.effect
+	}
+
+	explosion_effect Common/Effects/explode1.effect
+	explosion_effect Common/Effects/explode2.effect
+	explosion_effect Common/Effects/explode3.effect
+}

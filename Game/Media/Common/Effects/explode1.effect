@@ -1,0 +1,35 @@
+effect
+{
+	texture flash.tga
+	blend_mode additive
+	emit 1 {
+		min_pos 0 0 0
+		max_pos 0 0 0
+		min_vel 0 0 0
+		max_vel 0 0 0
+		gravity 0 0
+		angle -180 180
+		rotate_vel 0 0
+		scale 15 15
+		scale_vel 10 10
+		min_color 1 1 1
+		max_color 1 1 1
+		start_alpha 1.0
+		life 0.5 0.5
+	}
+	emit 20 {
+		min_pos -2 -1 -2
+		max_pos 2 1 2
+		min_vel -40 0 -40
+		max_vel 40 40 40
+		gravity -30 -30
+		angle -180 180
+		rotate_vel 100 100
+		scale 0.3 0.3
+		scale_vel 0 0
+		min_color 1 1 1
+		max_color 1 1 1
+		start_alpha 1.0
+		life 1.0 1.5
+	}
+}
