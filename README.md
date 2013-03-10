@@ -14,16 +14,16 @@ Overall this was a reall enjoyable project. Since everything was made from scrat
 
 ## More Screenshots
 
-![d1](https://raw.github.com/judnich/IronWarfare/master/desert3.png)
-![d2](https://raw.github.com/judnich/IronWarfare/master/desert3.png)
-![d3](https://raw.github.com/judnich/IronWarfare/master/desert3.png)
-![d4](https://raw.github.com/judnich/IronWarfare/master/desert3.png)
+![d1](https://raw.github.com/judnich/IronWarfare/master/screenshots/desert3.png)
+![d2](https://raw.github.com/judnich/IronWarfare/master/screenshots/desert3.png)
+![d3](https://raw.github.com/judnich/IronWarfare/master/screenshots/desert3.png)
+![d4](https://raw.github.com/judnich/IronWarfare/master/screenshots/desert3.png)
 
-![g1](https://raw.github.com/judnich/IronWarfare/master/grassy1.png)
-![g2](https://raw.github.com/judnich/IronWarfare/master/grassy2.png)
-![g3](https://raw.github.com/judnich/IronWarfare/master/grassy3.png)
-![g4](https://raw.github.com/judnich/IronWarfare/master/grassy4.png)
-![g5](https://raw.github.com/judnich/IronWarfare/master/grassy5.png)
+![g1](https://raw.github.com/judnich/IronWarfare/master/screenshots/grassy1.png)
+![g2](https://raw.github.com/judnich/IronWarfare/master/screenshots/grassy2.png)
+![g3](https://raw.github.com/judnich/IronWarfare/master/screenshots/grassy3.png)
+![g4](https://raw.github.com/judnich/IronWarfare/master/screenshots/grassy4.png)
+![g5](https://raw.github.com/judnich/IronWarfare/master/screenshots/grassy5.png)
 
-![s1](https://raw.github.com/judnich/IronWarfare/master/snow1.png)
-![s2](https://raw.github.com/judnich/IronWarfare/master/snow2.png)
+![s1](https://raw.github.com/judnich/IronWarfare/master/screenshots/snow1.png)
+![s2](https://raw.github.com/judnich/IronWarfare/master/screenshots/snow2.png)
